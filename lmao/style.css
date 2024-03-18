@@ -1,0 +1,66 @@
+body {
+	font-family: "Public Sans", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #fefefe;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+	max-width: 800px;
+}
+
+h1 {
+	color: #333;
+	font-size: 42px;
+	margin-top: 0;
+}
+
+p {
+	color: #444;
+	font-size: 24px;
+	font-family: "Lora", serif;
+}
+
+small {
+	color: grey;
+	margin-top: 15px;
+	display: block;
+}
+
+#aiPrompt {
+	width: 80%;
+	padding: 15px 20px;
+	margin-top: 20px;
+	border: 2px solid #ddd;
+	border-radius: 40px;
+	font-size: 16px;
+}
+
+#submitBtn {
+	width: 50%;
+	padding: 15px;
+	margin-left: 5px;
+	margin-top: 10px;
+	background-color: black;
+	color: #ffffff;
+	text-decoration: none;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+#submitBtn:hover {
+	background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+	#aiPrompt {
+		width: 50%;
+	}
+}
